@@ -1,12 +1,3 @@
-<?php
-
-
-
-
-//Dividing-line分界线——————————————————————
-
-
-
 
 //将此段代码添加进自己网站根目录中的网站首页运行文件中，需处于“<?php”代码下方一行处(例如index.php)↓
 //Add this code to the homepage runtime file in the root directory of your website, on the line below the "<?php" code (for example, index.php)
@@ -50,3 +41,29 @@ include_once ("ip.php");
 
 //安装完后续重新访问已安装ip获取模块的网站，然后网站根目录下才会生成ip.txt文件
 //After the installation is completed, revisit the website where the IP acquisition module is installed, and then the ip.txt file will be generated in the root directory of the website
+
+
+
+
+//Dividing-line分界线——————————————————————
+
+
+//当前正在使用维梦API(https://api.52vmy.cn)提供API接口服务
+
+//注意！ 用于IP解析的API接口均来源于中国！不能确保国外服务器有效！如IP无法解析 请自行更换API接口！
+
+//Note! The API interface for IP resolution is all from China! There is no guarantee that the foreign server will work! If the IP cannot be resolved, please change the API interface by yourself!
+
+
+
+
+//Dividing-line分界线——————————————————————
+
+
+
+
+//如需更改API，请进入IP-Ldentification文件夹中，打开Ldentification.php文件
+// $url = 'https://www.inte.net/tool/ip/api.ashx?ip='.$ip.'&datatype=json';  然后将这行代码中的 “https://www.inte.net/tool/ip/api.ashx?ip=” API请求地址改为自己要换成的API请求地址
+
+//If you need to change the API, go to the IP-Ldentification folder and open the Ldentification.php file
+// $url = 'https://www.inte.net/tool/ip/api.ashx?ip='.$ip.' &datatype=json'; Then change the "https://www.inte.net/tool/ip/api.ashx?ip=" API request address in this line of code to the API request address you want to replace
