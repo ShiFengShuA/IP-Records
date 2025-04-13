@@ -15,13 +15,13 @@ Gitee Releases Download：https://gitee.com/ShiFengShuA/Visitor-IP-Records/relea
 4.The IP information recorded in the current profile is complete
 
 
-Dividing-line——————————————————————
+Dividing line——————————————————————
 
 
 Note! The API interface for IP resolution is all from China! There is no guarantee that the foreign server will work! If the IP cannot be resolved, please change the API interface by yourself!
 
 
-Dividing-line——————————————————————
+Dividing line——————————————————————
 
 
 If you need to change the API, go to the IP-Ldentification folder and open the Ldentification.php file
