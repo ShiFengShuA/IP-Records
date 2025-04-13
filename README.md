@@ -1,16 +1,24 @@
 # Visitor-IP-Records
 
 访客IP记录正式版1.0.1 已发布 释放
+
 Visitor-IP-Records-Formal1.0.1 It has been released releases
+
 Releases：https://github.com/ShiFengShuA/Visitor-IP-Records/releases/download/Formal/Visitor-IP-Records-Formal1.0.1.zip
 
 1.更新了新的API接口
+
 Updated the new API interface
+
 2.使用手册优化
+
 Optimize the user manual
+
 3.当前正在使用维梦API(https://api.52vmy.cn)提供API接口服务
+
 We are currently using Dream API (https://api.52vmy.cn) to provide API interface services
 4.当前配置文件记录的IP信息是完整的
+
 The IP information recorded in the current profile is complete
 
 
