@@ -2,6 +2,7 @@
 
 访客IP记录正式版1.0.1 已发布 释放
 Visitor-IP-Records-Formal1.0.1 It has been released releases
+Visitor-IP-Records-Formal1.0.1：https://github.com/ShiFengShuA/Visitor-IP-Records/releases/tag/Formal
 
 1.更新了新的API接口
 Updated the new API interface
