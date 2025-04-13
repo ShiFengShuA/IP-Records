@@ -4,7 +4,8 @@ Visitor-IP-Records-Formal1.0.1 It has been released releases
 
 Github Releases Download：https://github.com/ShiFengShuA/Visitor-IP-Records/releases/download/Formal/Visitor-IP-Records-Formal1.0.1.zip
 
-Gitee Releases Download：https://gitee.com/ShiFengShuA/Visitor-IP-Records/releases/download/正式版/Visitor-IP-Records-Formal1.0.1.zip
+Gitee Releases Download：https://gitee.com/ShiFengShuA/Visitor-IP-Records/releases/download/%E6%AD%A3%E5%BC%8F%E7%89%88/Visitor-IP-Records-Formal1.0.1.zip
+
 
 1.Updated the new API interface
 
