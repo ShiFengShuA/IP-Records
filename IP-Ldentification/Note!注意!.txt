@@ -1,0 +1,82 @@
+简化IP信息记录于完整IP信息记录
+Simplify IP information logging in full IP information logging
+
+
+Ldentification.php文件中的以下部分即为API返回数据后的处理代码
+The following part of the Ldentification.php file is the processing code after the API returns the data
+
+
+
+
+   $location = trim(curl_exec($ch));
+    curl_close($ch);
+    return $location;
+
+
+
+
+若想记录简化后的API返回的数据，则需改成以下代码
+If you want to record the data returned by the simplified API, you need to change it to the following code:
+
+
+
+
+   $location = curl_exec($ch);
+    curl_close($ch);
+    $data = json_decode($location, true);
+    return $data['data'][0];
+
+
+
+
+若想记录API返回数据的完整信息，则需改成以下代码
+If you want to record the complete information of the data returned by the API, you need to change it to the following code:
+
+
+
+
+    $location = trim(curl_exec($ch));
+    curl_close($ch);
+    return $location;
+
+
+
+
+Dividing-line分界线——————————————————————
+
+
+
+
+如需更改API，请进入IP-Ldentification文件夹中，打开Ldentification.php文件
+$url = 'https://www.inte.net/tool/ip/api.ashx?ip='.$ip.'&datatype=json';  然后将这行代码中的 “https://www.inte.net/tool/ip/api.ashx?ip=” API请求地址改为自己要换成的API请求地址
+
+
+If you need to change the API, go to the IP-Ldentification folder and open the Ldentification.php file
+$url = 'https://www.inte.net/tool/ip/api.ashx?ip='.$ip.' &datatype=json'; Then change the "https://www.inte.net/tool/ip/api.ashx?ip=" API request address in this line of code to the API request address you want to replace
+
+
+
+
+Dividing-line分界线——————————————————————
+
+
+
+
+以下为可更换的API接口，均来源于中国，国外请自行适配
+The following are interchangeable API interfaces, all from China, please adapt to foreign countries 
+
+
+1.
+因特网(https://www.inte.net)提供API接口服务
+接口地址/Interface address：https://www.inte.net/tool/ip/api.ashx
+返回格式/Return format：JSON
+请求方式/Request method：GET
+请求地址/Request address：https://www.inte.net/tool/ip/api.ashx?ip=
+
+
+2.
+维梦API(https://api.52vmy.cn)提供API接口服务
+接口地址/Interface address：https://api.52vmy.cn/api/query/itad
+返回格式/Return format：JSON
+请求方式/Request method：GET
+请求地址/Request address：https://api.52vmy.cn/api/query/itad?ip=
