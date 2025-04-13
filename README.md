@@ -2,7 +2,7 @@
 
 访客IP记录正式版1.0.1 已发布 释放
 Visitor-IP-Records-Formal1.0.1 It has been released releases
-https://gh.api.99988866.xyz/https://github.com/ShiFengShuA/Visitor-IP-Records/releases/download/Formal/Visitor-IP-Records-Formal1.0.1.zip
+https://github.com/ShiFengShuA/Visitor-IP-Records/releases/download/Formal/Visitor-IP-Records-Formal1.0.1.zip
 
 1.更新了新的API接口
 Updated the new API interface
